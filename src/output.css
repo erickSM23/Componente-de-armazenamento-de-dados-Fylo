@@ -174,6 +174,9 @@
   .h-screen {
     height: 100vh;
   }
+  .min-h-screen {
+    min-height: 100vh;
+  }
   .w-screen {
     width: 100vw;
   }
@@ -183,29 +186,38 @@
   .resize {
     resize: both;
   }
-  .grid-cols-1 {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-  .grid-cols-\[1\] {
-    grid-template-columns: 1;
-  }
-  .grid-cols-\[1fr\] {
-    grid-template-columns: 1fr;
-  }
-  .grid-cols-\[1fr_\] {
-    grid-template-columns: 1fr ;
-  }
   .grid-cols-\[200px\] {
     grid-template-columns: 200px;
   }
-  .grid-cols-\[400px\] {
-    grid-template-columns: 400px;
+  .grid-rows-1 {
+    grid-template-rows: repeat(1, minmax(0, 1fr));
   }
-  .gap-\[10px\] {
-    gap: 10px;
+  .grid-rows-\[1fr\] {
+    grid-template-rows: 1fr;
   }
-  .gap-\[30px\] {
-    gap: 30px;
+  .grid-rows-\[1fr_1fr\] {
+    grid-template-rows: 1fr 1fr;
+  }
+  .grid-rows-\[1fr_\] {
+    grid-template-rows: 1fr ;
+  }
+  .grid-rows-\[100px_400px\] {
+    grid-template-rows: 100px 400px;
+  }
+  .grid-rows-\[100px_\] {
+    grid-template-rows: 100px ;
+  }
+  .grid-rows-\[auto_auto\] {
+    grid-template-rows: auto auto;
+  }
+  .content-center {
+    align-content: center;
+  }
+  .items-center {
+    align-items: center;
+  }
+  .justify-center {
+    justify-content: center;
   }
   .gap-\[30px_5px\] {
     gap: 30px 5px;
@@ -217,8 +229,35 @@
   .bg-blue-900 {
     background-color: var(--color-blue-900);
   }
-  .bg-red-700 {
-    background-color: var(--color-red-700);
+  .font-\[\'Ralewa\'\] {
+    font-family: 'Ralewa';
+  }
+  .font-\[\'Raleway\'\] {
+    font-family: 'Raleway';
+  }
+  .font-\[\'\\Raleway\'\] {
+    font-family: '\Raleway';
+  }
+  .font-\[\'raleway\'\] {
+    font-family: 'raleway';
+  }
+  .font-\[\'raley\'\] {
+    font-family: 'raley';
+  }
+  .font-\[\'raleyhei\'\] {
+    font-family: 'raleyhei';
+  }
+  .text-\[2em\] {
+    font-size: 2em;
+  }
+  .text-\[4em\] {
+    font-size: 4em;
+  }
+  .text-\[15px\] {
+    font-size: 15px;
+  }
+  .text-\[15px\,\] {
+    color: 15px,;
   }
   .underline {
     text-decoration-line: underline;
@@ -228,6 +267,7 @@
     outline-width: 1px;
   }
 }
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @property --tw-border-style {
   syntax: "*";
   inherits: false;
