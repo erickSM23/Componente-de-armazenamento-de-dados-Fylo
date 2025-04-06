@@ -9,18 +9,18 @@
   <link href="./input.css" rel="stylesheet">
   
 </head>
-<body class="min-h-screen bg-[url(images/bg-mobile.png)] bg-no-repeat bg-cover">
-  <main class="min-h-screen w-screen grid grid-cols-[80vw] landscape:grid-cols-[50vw] grid-rows-[230px_200px] gap-[30px_5px] text-[15px,] font-['Raleway'] justify-center content-center">
-    <div class="bg-[#1d2c67] p-[40px] flex flex-col justify-between items-start rounded-[10px] rounded-tr-[55%]">
-      <img src="images/logo.svg" alt="logo fylo" class="w-[60%] landscape:w-[45%]">
+<body class="min-h-screen bg-[url(images/bg-mobile.png)] bg-no-repeat bg-cover md:bg-none md:bg-[#0c122c]">
+  <main class="min-h-screen w-screen grid md:bg-[url(images/bg-desktop.png)] md:bg-no-repeat md:bg-bottom md:flex md:justify-center md:flex-row md:items-center grid-cols-[80vw] landscape:grid-cols-[50vw] grid-rows-[230px_200px] gap-[30px_5px] text-[15px,] font-['Raleway'] justify-center content-center ">
+    <div class="bg-[#1d2c67] p-[40px] flex flex-col justify-between items-start rounded-[10px] rounded-tr-[55%] md:h-[200px] md:mr-[30px] md:basis-[300px]  md:rounded-tr-[40%]">
+      <img src="images/logo.svg" alt="logo fylo" class="w-[60%] landscape:w-[45%] md:w-[1em]">
       <div class="flex flex-row justify-start w-[80%] h-auto">
         <img src="images/icon-document.svg" alt="document" class="mr-[20px] landscape:w-[20%] w-[100%] text-center p-[15px] pr-[17px] pl-[17px] rounded-[10px] bg-[#0c122c]">
         <img src="images/icon-folder.svg" alt="folder" class="mr-[20px] landscape:w-[20%] w-[100%] text-center p-[15px] pr-[17px] pl-[17px] rounded-[10px] bg-[#0c122c]">
         <img src="images/icon-upload.svg" alt="upload" class="landscape:w-[20%] w-[100%] text-center p-[15px] pr-[17px] pl-[17px] rounded-[10px] bg-[#0c122c]">
       </div>
     </div>
-    <div class="bg-[#1d2c67] flex flex-col items-center text-center p-[40px] rounded-[10px] relative">
-      <h1 class="text-[#ffffffd5] mb-[15px] whitespace-nowrap">You’ve used <strong class="text-[#dddbff]">815 GB</strong> of your storage</h1>  
+    <div class="bg-[#1d2c67] flex flex-col items-center text-center p-[40px] rounded-[10px] relative md:h-[150px] md:basis-[550px] md:text-left]">
+      <h1 class="text-[#ffffffd5] mb-[15px] whitespace-nowrap self-start">You’ve used <strong class="text-[#dddbff]">815 GB</strong> of your storage</h1>  
       <div id="cx" class="h-[20px] w-[100%] bg-[#0c122c] rounded-[40px] flex justify-start items-center mb-[10px]">
         <div class="relative bg-[image:linear-gradient(to_right,_#ffa399,_#ff4d97)] h-[20px] w-[60%] rounded-[40px] border-[3px] border-[#0c122c]"><strong class="bg-white text-transparent block absolute rounded-[50%] h-[15px] w-[15px] left-[137px] landscape:left-[197px]">o</strong></div>
       </div>
