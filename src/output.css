@@ -650,6 +650,9 @@
     border-style: var(--tw-border-style);
     border-width: 3px;
   }
+  .border-\[\#0c122c\] {
+    border-color: #0c122c;
+  }
   .border-\[1px_solid_\] {
     border-color: 1px solid ;
   }
@@ -944,6 +947,12 @@
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
+  }
+  .whitespace-normal {
+    white-space: normal;
+  }
+  .whitespace-nowrap {
+    white-space: nowrap;
   }
   .text-\[\#0c122c\] {
     color: #0c122c;
