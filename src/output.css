@@ -1003,6 +1003,11 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
+  .lg\:hidden {
+    @media (width >= 64rem) {
+      display: none;
+    }
+  }
   .landscape\:left-\[1\] {
     @media (orientation: landscape) {
       left: 1;
