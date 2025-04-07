@@ -9,22 +9,25 @@
   <link href="./input.css" rel="stylesheet">
   
 </head>
-<body class="min-h-screen bg-[url(images/bg-mobile.png)] bg-no-repeat bg-cover md:bg-none md:bg-[#0c122c]">
-  <main class="min-h-screen w-screen grid md:bg-[url(images/bg-desktop.png)] md:bg-no-repeat md:bg-bottom md:flex md:justify-center md:flex-row md:items-center grid-cols-[80vw] landscape:grid-cols-[50vw] grid-rows-[230px_200px] gap-[30px_5px] text-[15px,] font-['Raleway'] justify-center content-center ">
-    <div class="bg-[#1d2c67] p-[40px] flex flex-col justify-between items-start rounded-[10px] rounded-tr-[55%] md:h-[200px] md:mr-[30px] md:basis-[300px]  md:rounded-tr-[40%]">
-      <img src="images/logo.svg" alt="logo fylo" class="w-[60%] landscape:w-[45%] md:w-[1em]">
+<body class="min-h-screen bg-[url(images/bg-mobile.png)] bg-no-repeat bg-cover lg:bg-none lg:bg-[#0c122c]">
+  <main class="min-h-screen w-screen grid lg:bg-[url(images/bg-desktop.png)] lg:bg-no-repeat lg:bg-bottom lg:flex lg:justify-center lg:flex-row lg:items-center grid-cols-[80vw] landscape:grid-cols-[50vw] grid-rows-[230px_200px] gap-[30px_5px] text-[15px,] font-['Raleway'] justify-center content-center lg:relative">
+    <div class="bg-[#1d2c67] p-[40px] flex flex-col justify-between items-start rounded-[10px] rounded-tr-[55%] lg:h-[200px] lg:mr-[30px] lg:basis-[350px]  lg:rounded-tr-[40%] lg:absolute lg:top-[161px] lg:left-[220px] lg:w-[350px]">
+      <img src="images/logo.svg" alt="logo fylo" class="w-[60%] landscape:w-[45%] md:landscape:w-[50%]">
       <div class="flex flex-row justify-start w-[80%] h-auto">
-        <img src="images/icon-document.svg" alt="document" class="mr-[20px] landscape:w-[20%] w-[100%] text-center p-[15px] pr-[17px] pl-[17px] rounded-[10px] bg-[#0c122c]">
-        <img src="images/icon-folder.svg" alt="folder" class="mr-[20px] landscape:w-[20%] w-[100%] text-center p-[15px] pr-[17px] pl-[17px] rounded-[10px] bg-[#0c122c]">
-        <img src="images/icon-upload.svg" alt="upload" class="landscape:w-[20%] w-[100%] text-center p-[15px] pr-[17px] pl-[17px] rounded-[10px] bg-[#0c122c]">
+        <img src="images/icon-document.svg" alt="document" class="lg:p-[10px] mr-[20px] landscape:w-[20%] w-[100%] text-center p-[15px] pr-[17px] pl-[17px] rounded-[10px] bg-[#0c122c]">
+        <img src="images/icon-folder.svg" alt="folder" class="lg:p-[10px] mr-[20px] landscape:w-[20%] w-[100%] text-center p-[15px] pr-[17px] pl-[17px] rounded-[10px] bg-[#0c122c]">
+        <img src="images/icon-upload.svg" alt="upload" class="lg:p-[10px] landscape:w-[20%] w-[100%] text-center p-[15px] pr-[17px] pl-[17px] rounded-[10px] bg-[#0c122c]">
       </div>
     </div>
-    <div class="bg-[#1d2c67] flex flex-col items-center text-center p-[40px] rounded-[10px] relative md:h-[150px] md:basis-[550px] md:text-left]">
-      <h1 class="text-[#ffffffd5] mb-[15px] whitespace-nowrap self-start">You’ve used <strong class="text-[#dddbff]">815 GB</strong> of your storage</h1>  
-      <div id="cx" class="h-[20px] w-[100%] bg-[#0c122c] rounded-[40px] flex justify-start items-center mb-[10px]">
-        <div class="relative bg-[image:linear-gradient(to_right,_#ffa399,_#ff4d97)] h-[20px] w-[60%] rounded-[40px] border-[3px] border-[#0c122c]"><strong class="bg-white text-transparent block absolute rounded-[50%] h-[15px] w-[15px] left-[137px] landscape:left-[197px]">o</strong></div>
+    <div class="bg-[#1d2c67] flex flex-col justify-center items-center text-center p-[40px] rounded-[10px] relative lg:h-[150px] lg:basis-[550px] lg:text-left] lg:absolute lg:top-[210px] lg:left-[600px] lg:w-[550px]">
+      <h1 class="text-[#ffffffd5] lg-[15px] whitespace-nowrap self-start lg:pb-[10px]">You’ve used <strong class="text-[#dddbff]">815 GB</strong> of your storage</h1>  
+      <div id="cx" class="h-[20px] w-[100%] bg-[#0c122c] rounded-[40px] flex justify-start items-center lg-[10px] lg:mb-[10px]">
+        <div class="relative bg-[image:linear-gradient(to_right,_#ffa399,_#ff4d97)] h-[20px] w-[60%] lg:w-[75%] rounded-[40px] border-[3px] border-[#0c122c]"><strong class="bg-white text-transparent block absolute rounded-[50%] lg:h-[14px] h-[15px] w-[15px] lg:landscape:left-[330px] left-[137px] landscape:left-[197px]">o</strong>
+        </div>
       </div>
-      <p class="absolute bg-white w-[200px] h-[90px] p-[10px] rounded-[10px] top-[160px] flex justify-center items-center text-[#848794] font-bold uppercase"><strong class="text-[3em] pr-[15px] text-[#0c122c] font-[650]">185</strong> GB Left</p>
+      <div class="absolute bg-white w-[200px] h-[90px] p-[10px] rounded-[10px] top-[160px] flex justify-center items-center text-[#848794] font-bold uppercase"><strong class="text-[3em] pr-[15px] text-[#0c122c] font-[650]">185</strong> GB Left
+      <div id="triangulo" class="absolute left-1/2 -bottom-2 w-3 h-3 bg-white rotate-45 transform -translate-x-1/2"></div>
+      </div>
       <div class="flex justify-between w-[100%] text-[#dddbff] font-bold">
         <p>0 GB</p>
         <p>1000 GB</p>
