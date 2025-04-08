@@ -12,11 +12,22 @@
     font-family: "Raleway", sans-serif;
 */
 
-div#caixabranca::after {
+div#caixabranca::after { 
     position: absolute;
     content: "";
     height: 3rem;
     width: 3rem;
-    background-color: red;
+    background-color: white;
     clip-path: polygon(100% 0, 0 0, 100% 100%);
+    display: none;
+}
+
+
+@media screen and (min-width: 1000px) {
+    div#caixabranca::after {
+        display: inline-block;
+        background-color: white;
+        top: 70px;
+        left: 152px;
+    }
 }
